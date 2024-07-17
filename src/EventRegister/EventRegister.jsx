@@ -142,7 +142,7 @@ const EventRegister = () => {
             console.log(name, email, phno, selectedOptions);
             try {
               const response = await axios.post(
-                "https://foundation-y0s5.onre0 nder.com/registers",
+                "https://foundation-y0s5.onrender.com/registers",
                 { name, email, phno, selectedOptions }
               );
               console.log(response.data.val1);
