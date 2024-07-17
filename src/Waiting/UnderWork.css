@@ -1,0 +1,26 @@
+.main {
+  width: 100vw;
+  height: 100vh;
+  background-color: antiquewhite;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.title{
+text-align: center;
+}
+
+.mainTitle{
+    font-size: medium;
+    font-weight: 600;
+    text-align: center;
+}
+.links{
+    font-size: small;
+    font-weight: 600;
+    text-align: center;
+    display: flex;align-items: center;
+    justify-content: space-between;
+
+}
